@@ -11,18 +11,18 @@ type HeaderScreenProps = {
 function HeaderScreen ({title, variant = "back"}: HeaderScreenProps) {
     if (variant === "close") {
         return (
-            <View className = "flex-row p-5 justify-between items-center"> 
+            <View className="flex-row p-5 justify-between items-center"> 
                 <CloseButton/>
-                <Text className = "text-white font-bold text-xl">{title}</Text>
-                <View className = "h-[50px] w-[50px]"></View>
+                <Text className="text-white font-bold text-xl">{title}</Text>
+                <View className="h-[50px] w-[50px]"></View>
             </View>
         );
     }
     return (
-        <View className = "flex-row p-5 justify-between items-center">
+        <View className="flex-row p-5 justify-between items-center">
             <BackButton/>
-            <Text className = "text-white font-bold text-xl">{title}</Text>
-            <View className = "h-[50px] w-[50px]"></View>
+            <Text className="text-white font-bold text-xl">{title}</Text>
+            <View className="h-[50px] w-[50px]"></View>
         </View>
     );
 }

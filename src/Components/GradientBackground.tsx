@@ -9,7 +9,7 @@ type Props = {
 
 function GradientBackground ({
     children,
-    colors = ["#053A28", "#0B7A4F"],
+    colors=["#053A28", "#0B7A4F"],
 }: Props) {
     return (
         <LinearGradient

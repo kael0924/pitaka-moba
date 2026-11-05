@@ -8,7 +8,7 @@ function AddExpense() {
     return (
         <GradientBackground>
             <SafeAreaView>
-                <ScreenHeader title = "Add Expense"></ScreenHeader>
+                <ScreenHeader title="Add Expense"></ScreenHeader>
                 <WhiteCard></WhiteCard>
             </SafeAreaView>
         </GradientBackground>

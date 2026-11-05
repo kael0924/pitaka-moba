@@ -8,7 +8,7 @@ function AddIncome() {
     return (
         <GradientBackground>
             <SafeAreaView>
-                <ScreenHeader title = "Add Income" variant = "close"></ScreenHeader>
+                <ScreenHeader title="Add Income" variant="close"></ScreenHeader>
                 <WhiteCard>
                     
                 </WhiteCard>

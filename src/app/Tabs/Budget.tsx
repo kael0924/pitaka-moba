@@ -1,12 +1,14 @@
-import GradientBackground from "../../Components/GradientBackground"
-import { View, Text } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
+import GradientBackground from "../../Components/GradientBackground"
+import ScreenHeader from "../../Components/ScreenHeader"
+import WhiteCard from "../../Components/WhiteCard"
 
 function Budget() {
     return(
         <GradientBackground>
             <SafeAreaView>
-                <Text>Budget Screen</Text>
+                <ScreenHeader title="Budget"></ScreenHeader>
+                <WhiteCard></WhiteCard>
             </SafeAreaView>
         </GradientBackground>
     );
