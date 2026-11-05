@@ -1,7 +1,14 @@
-import React from 'react'
 import { View, Text, Button, Image } from 'react-native'
+import { useRouter } from 'expo-router' 
 
 function WelcomeScreen() {
+
+    const router = useRouter()
+
+    const handleGetStarted = () => {
+        router.replace("/PinScreen")
+    }
+
     return (
         <View className='' id=''>
             <View>
@@ -19,7 +26,7 @@ function WelcomeScreen() {
             </View>
             <View>
                 <View>
-                    <Button onPress={()=>{}} title={'Get Started'} />
+                    <Button onPress={handleGetStarted} title={'Get Started'} />
                     <Button onPress={()=>{}} title={'->'} />
                 </View>
                 <View>

@@ -1,6 +1,7 @@
 import { Tabs } from "expo-router"
 
 function TabsLayout() {
+    console.log('[debug] TabsLayout mounted') // [debug]
     return (
         <Tabs
             screenOptions={{

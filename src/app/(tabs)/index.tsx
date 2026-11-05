@@ -8,6 +8,7 @@ import { router } from "expo-router"
 const percent = (user.spent/user.budget) * 100;
 
 function Dashboard() {
+    console.log('[debug] Dashboard rendered') // [debug]
     return (
         <GradientBackground>
             <SafeAreaView>
